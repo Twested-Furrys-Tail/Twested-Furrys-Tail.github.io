@@ -4,8 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+      }
+      h1 {
+        color: hotpink;
+        cursor: pointer;
+        user-select: none;
+      }
+
+      h1:hover {
+        animation: rotate 2s infinite;
+      }
+      @keyframes rotate {
+        from {
+          transform: rotate(0);
+        }
+        to {
+          transform: rotate(365deg);
+        }
+      }
+    </style>
   </head>
   <body>
-<h1>Hello</h1>
+    <h1>Hello</h1>
   </body>
 </html>
