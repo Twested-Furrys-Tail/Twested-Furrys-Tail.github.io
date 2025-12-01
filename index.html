@@ -12,13 +12,17 @@
         height: 70vh;
         width: 70%;
       }
-      h1 {
+      h2 {
         color: hotpink;
         cursor: pointer;
         user-select: none;
       }
-
-      h1:hover {
+      h1 {
+        position: absolute;
+        left: 50%;
+        top: 0;
+      } 
+      h2:hover {
         animation: rotate 10s infinite;
       }
       @keyframes rotate {
@@ -26,12 +30,13 @@
           transform: rotate(0);
         }
         to {
-          transform: rotate(365deg);
+          transform: rotate(360deg);
         }
       }
     </style>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <h1>Welcome¡¡¡</h1>
+    <h2>Hello World</h2>
   </body>
 </html>
